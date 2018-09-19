@@ -1,4 +1,7 @@
+@import '_vars';
 
+body {
 
-$background-color: #ffffff;
-$font-color: black;
+    background-color: $background-color; 
+    word-color: blue;
+}
