@@ -1,0 +1,26 @@
+{
+  "name": "blue_e_stoltz_limin_s_agencyx",
+  "version": "1.0.0",
+  "description": "agency site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaBlue/Blue_E_Stoltz_Limin_S_AgencyX.git"
+  },
+  "keywords": [
+    "agency"
+  ],
+  "author": "Emma Blue, Shannon Stoltz-Limin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmmaBlue/Blue_E_Stoltz_Limin_S_AgencyX/issues"
+  },
+  "homepage": "https://github.com/EmmaBlue/Blue_E_Stoltz_Limin_S_AgencyX#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "sass": "^1.13.4"
+  }
+}
