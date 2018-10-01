@@ -1,7 +1,6 @@
 @import '_vars';
 
-body {
+.hidden {
 
-    background-color: $background-color; 
-    word-color: blue;
+    display: none;
 }
