@@ -1,6 +1,25 @@
-@import '_vars';
+@import 'modules/_vars';
+@import 'modules/_nav';
+@import 'modules/_front';
+@import 'modules/_services';
 
 .hidden {
 
     display: none;
 }
+
+.heading {
+
+    text-align: center;
+    margin: 20px;
+}
+
+/*Reset*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+

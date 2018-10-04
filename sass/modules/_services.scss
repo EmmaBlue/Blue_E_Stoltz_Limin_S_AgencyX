@@ -1,0 +1,71 @@
+#serviceWrapper {
+
+    /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-columns: minmax(150px, 1fr);
+    grid-auto-rows: 250px;
+    padding: 0 0 1rem 0;
+  }
+
+
+  .serviceBlock {
+        max-width: 300px;
+        background-color: #4C3F4C;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+  }
+
+
+
+/*@media screen and (min-width: 600px) {
+
+    #serviceWrapper {
+
+    
+        max-width: 860px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        display: grid;
+        grid-gap: 20px;
+        grid-auto-columns: minmax(50px, 1fr);
+        grid-auto-rows: 350px;
+        padding: 0 0 5rem 0;
+      }
+
+
+      #brandBlock {
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+    
+    }
+    
+    #designBlock {
+    
+        grid-column-start: 2;
+        grid-column-end: 3;
+    
+    
+    }
+    
+    #codeBlock {
+    
+        grid-column-start: 3;
+        grid-column-end: 4;
+    
+    
+    }
+    
+    #marketingBlock {
+    
+        grid-column-start: 4;
+        grid-column-end: 5;
+    
+    }
+}*/
+  
