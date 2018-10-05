@@ -1,17 +1,36 @@
 footer {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: grey;
+    background-color: $header-color;
+
+    p {
+
+        font-size: 1em;
+        color: white;
+    }
   
 }
 
 #footerSoc {
 
+    margin-top: 1em;
+
     li {
 
         text-decoration: none;
         display: inline-block;
+        margin-right: .5em;
     }
+      
+       a {
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        font-size: 2rem;
+      }
+    
+
+    
 }

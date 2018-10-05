@@ -7,7 +7,7 @@
   }
 
 .nav_but {
-    background-color: #fff;
+    background-color: $header-color;
     height: 6rem;
     width: 6rem;
     position: fixed;
@@ -79,7 +79,7 @@
     display: inline-block;
     font-size: 1.25rem;
     font-weight: 300;
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem 2rem;
@@ -89,7 +89,7 @@
   .nav_link:hover,
   .nav_link:active {
     background-position: 100%;
-    color: #ffff;
+    color: black;
 
   }
   
@@ -113,7 +113,7 @@
   .nav_icon::after {
     width: 3em;
     height: 2px;
-    background-color: #333;
+    background-color: white;
     display: inline-block;
   }
   
@@ -168,7 +168,7 @@
   #socNav li {
     display: inline;
     margin-right: 20px;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   
   #socNav li a {
@@ -177,7 +177,7 @@
     text-decoration: none;
   }
   
-  .fa-youtube:hover, .fa-twitter:hover, .fa-instagram:hover,  .fa-facebook-square:hover  {
+ .fa-twitter:hover, .fa-instagram:hover,  .fa-facebook-square:hover  {
     color: $font-color;
   }
 
