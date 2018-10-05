@@ -1,20 +1,22 @@
+
+
 #serviceWrapper {
 
     /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
     max-width: 1260px;
     margin: 0 auto;
-    margin-top: 2rem;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: minmax(150px, 1fr);
     grid-template-rows: 250px;
     padding: 0 0 1rem 0;
+
   }
 
 
   .serviceBlock {
         max-width: 300px;
-        border: 5px $header-color solid;
+        background-color: $font-color;
         padding: 1em 1.5em 1em 1.5em;
         overflow: hidden;
         position: relative;
@@ -26,11 +28,26 @@
           text-align: center;
           font-size: 1.25em;
           margin-bottom: 10px;
+          color:white;
+        }
+
+        p {
+
+          font-size: 0.875em;
+          margin: 0.5em 0px 0.5em 0px;
+          color: white;
+    
         }
   }
 
+  .servicePic {
 
-  @media screen and (min-width: 600px) and (max-width: 785px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  @media screen and (min-width: 600px) and (max-width: 1023px) {
 
     #serviceWrapper {
 
@@ -38,10 +55,18 @@
         grid-template-rows: repeat(2, 1fr);
         padding-left: 50px;
         padding-right: 50px;
+
+
+          p {
+
+            font-size: 0.875em;
+            margin: 0.5em 0px 0.5em 0px;
+
+          }
       }
   }
 
-  @media screen and (min-width: 786px) {
+  @media screen and (min-width: 1024px) {
 
     #serviceWrapper {
 
@@ -49,6 +74,15 @@
         grid-template-columns: repeat(4, 1fr);
         padding-left: 50px;
         padding-right: 50px;
+        margin-bottom: 7em;
+
+        .serviceBlock {
+
+          padding: 2.5em 1.5em 17em 1.5em;
+  
+  
+    }
+        
       }
   }
 

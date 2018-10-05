@@ -1,20 +1,17 @@
 #workWrapper {
 
-    /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
-    max-width: 1260px;
+    /* fit in up to 4 columns of 400px wide tiles*/
+    max-width: 1600px;
     margin: 0 auto;
     margin-top: 2rem;
     display: grid;
-    grid-gap: 0;
     grid-template-columns: minmax(150px, 1fr);
     //padding: 0 0 1rem 0;
   }
 
 
   .workBlock {
-        max-width: 300px;
-        border: 1px black solid;
-        background-color:white;
+        max-width: 400px;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
@@ -37,7 +34,5 @@
 
         /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
         grid-template-columns: repeat(4, 1fr);
-        padding-left: 50px;
-        padding-right: 50px;
       }
   }
