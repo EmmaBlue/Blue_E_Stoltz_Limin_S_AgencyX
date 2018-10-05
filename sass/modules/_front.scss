@@ -2,11 +2,24 @@
     height: 100vh;
     display: flex;
     flex-flow: column;
+    position: relative;
     align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
-    background: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center center;
+    background-image: url(http://kenwheeler.github.io/slick/img/fonz1.png);
+
+    .bItem:after {
+      content: '';
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00edff+0,2989d8+38,333399+100 */
+background: #00edff; /* Old browsers */
+background: -moz-linear-gradient(top, #00edff 0%, #2989d8 38%, #333399 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #00edff 0%,#2989d8 38%,#333399 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #00edff 0%,#2989d8 38%,#333399 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00edff', endColorstr='#333399',GradientType=0 ); /* IE6-9 */
+    }
 
     h2 {
 
