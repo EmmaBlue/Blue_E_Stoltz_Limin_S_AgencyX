@@ -1,0 +1,70 @@
+#contactSect {
+
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0 auto;
+
+    p {
+
+        text-align: center;
+    }
+
+    .inputSect, #messageContain {
+
+        text-align: center;
+    }
+
+    #messageContain {
+
+        .form-group label, textarea {
+    
+            display: block;
+    
+        }
+
+        textarea {
+
+            margin: 0 auto;
+            width: 50%;
+        }
+    
+    }
+
+    button {
+
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 786px) {
+
+    #contactWrapper {
+
+        max-width: 1260px;
+        margin: 0 auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-gap: 20px;
+        padding: 0 0 1rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+        padding-right: 50px;
+
+        form .contactBlock {
+
+            max-width: 300px;
+            border: 1px black solid;
+            background-color:white;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+    
+        }
+    }
+
+}
+
+
