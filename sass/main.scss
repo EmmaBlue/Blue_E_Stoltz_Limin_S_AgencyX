@@ -1,8 +1,38 @@
-@import '_vars';
+@import 'modules/_vars';
+@import 'modules/_nav';
+@import 'modules/_front';
+@import 'modules/_services';
+@import 'modules/_work';
+@import 'modules/_about';
+@import 'modules/_contact';
+@import 'modules/_footer';
 
-body {
+.hidden {
 
+    display: none;
+}
+
+.heading {
+
+    text-align: center;
+    margin: 20px;
+    font-family: $fontHeading;
+    font-size: 1.75em;
+}
+
+/*Reset*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+<<<<<<< HEAD
     background-color: $background-color; 
     font-color: $font-color;
     header-color: $header-color;
 }
+=======
+>>>>>>> e4ae9c36b6dd547690928c8bc9de5a2d72fdf33d
