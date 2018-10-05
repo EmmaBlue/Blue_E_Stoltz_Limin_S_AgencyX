@@ -1,5 +1,3 @@
-
-  
  /* FLOATING NAVIGATION TOGGLE BUTTON */
 
 .nav_box {
@@ -79,18 +77,17 @@
     display: inline-block;
     font-size: 1.25rem;
     font-weight: 300;
-    color: black;
+    color:#000;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem 2rem;
-    transition: all ease 0.4s;
+    transition: color 0.5s ease;
   }
   
   .nav_link:hover,
   .nav_link:active {
     background-position: 100%;
     color: #ffff;
-
   }
   
   .nav_box:checked~.nav_background {
@@ -172,14 +169,17 @@
   }
   
   #socNav li a {
-    color: #fff;
+    color: white;
     list-style: none;
     text-decoration: none;
   }
   
+  
   .fa-youtube:hover, .fa-twitter:hover, .fa-instagram:hover,  .fa-facebook-square:hover  {
     color: $font-color;
   }
+  
+  
 
   /* Nav Media Queries */
 
@@ -199,8 +199,10 @@
     position: absolute;
     top: 0rem;
     right: 0rem;
-    background: $header-color;
     z-index: 1000;
+    transition: -webkit-transform 0.8s cubic-bezier(0.69, 0, 0.007, 1);
+    transition: transform 0.8s cubic-bezier(0.69, 0, 0.007, 1);
+    transition: transform 0.8s cubic-bezier(0.69, 0, 0.007, 1), -webkit-transform 0.8s cubic-bezier(0.69, 0, 0.007, 1);
     opacity: 1;
 
   
@@ -210,6 +212,7 @@
         position: relative;
         z-index: 1500;
         transition: all 0.8s cubic-bezier(0.69, -0.55, 0.265, 1.55);
+        
         opacity: 1;
         top: 0rem;
         display: inline;
@@ -218,12 +221,12 @@
 
     .nav_list {
         position: static;
-        -webkit-transform: translate(0%, 0%);
-        transform: translate(0%, 0%);
+        -webkit-transform: translate(-40%, -20%);
+        transform: translate(-20%, -50%);
         list-style: none;
         text-align: center;
         width: 100%;
-        display: inline-block;
+
     }
 
     .nav_item {
