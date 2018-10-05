@@ -11,5 +11,54 @@
     h2 {
 
       font-family: $regFont;
+      font-size: 1em;
+      text-align: center;
+      margin: 10px 20px 0px 20px; 
+      color: white;
+    }
+
+    a {
+
+      color: white; 
+      font-family: $fontHeading;
+      font-size: 3em;
+      text-decoration: none;
+    }
+
+    img {
+
+      margin-right: 10px;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+
+    #frontSect h2 {
+
+      font-size: 1.15em;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    #frontSect {
+
+      a {
+
+        font-size: 5em;
+
+      }
+
+    }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    #frontSect {
+
+      height: 95vh;
+
     }
   }

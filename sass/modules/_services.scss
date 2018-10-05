@@ -14,11 +14,20 @@
 
   .serviceBlock {
         max-width: 300px;
-        background-color: #4C3F4C;
+        border: 5px $header-color solid;
+        padding: 1em 1.5em 1em 1.5em;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
+
+        h2 {
+
+          text-align: center;
+          font-size: 1.25em;
+          margin-bottom: 10px;
+        }
   }
+
 
   @media screen and (min-width: 600px) and (max-width: 785px) {
 
