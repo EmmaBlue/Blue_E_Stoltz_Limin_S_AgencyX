@@ -3,11 +3,27 @@
     padding-left: 2em;
     padding-right: 2em;
     margin: 0 auto;
+    
+    form {
+
+        margin-bottom: 10px;
+        padding: 1.25em 0em 1.25em 0em;
+        background-color: $font-color;
+    }
+    input {
+
+        border-radius: 50px;
+        border: 1.25px black solid;
+        width: 40%;
+        height: 20px;
+        margin-bottom: 20px;
+    }
 
     p {
 
         text-align: center;
         margin-bottom: 1em;
+        color: white;
     }
 
     label {
@@ -32,7 +48,7 @@
         textarea {
 
             margin: 0 auto;
-            width: 50%;
+            width: 70%;
         }
     
     }
@@ -50,7 +66,6 @@
 
     label {
 
-        display: inline-block;
         width: 10%;
     }
 }
