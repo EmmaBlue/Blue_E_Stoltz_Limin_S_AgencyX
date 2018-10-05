@@ -1,0 +1,17 @@
+footer {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: grey;
+  
+}
+
+#footerSoc {
+
+    li {
+
+        text-decoration: none;
+        display: inline-block;
+    }
+}

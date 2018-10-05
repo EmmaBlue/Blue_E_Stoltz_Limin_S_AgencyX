@@ -1,20 +1,20 @@
-#serviceWrapper {
+#workWrapper {
 
     /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
     max-width: 1260px;
     margin: 0 auto;
     margin-top: 2rem;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0;
     grid-template-columns: minmax(150px, 1fr);
-    grid-template-rows: 250px;
-    padding: 0 0 1rem 0;
+    //padding: 0 0 1rem 0;
   }
 
 
-  .serviceBlock {
+  .workBlock {
         max-width: 300px;
-        background-color: #4C3F4C;
+        border: 1px black solid;
+        background-color:white;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
@@ -22,7 +22,7 @@
 
   @media screen and (min-width: 600px) and (max-width: 785px) {
 
-    #serviceWrapper {
+    #workWrapper {
 
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -33,7 +33,7 @@
 
   @media screen and (min-width: 786px) {
 
-    #serviceWrapper {
+    #workWrapper {
 
         /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
         grid-template-columns: repeat(4, 1fr);
@@ -41,6 +41,3 @@
         padding-right: 50px;
       }
   }
-
-
-  
