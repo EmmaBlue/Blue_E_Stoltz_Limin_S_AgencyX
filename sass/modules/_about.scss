@@ -1,7 +1,7 @@
 #aboutWrapper {
 
     /* fit in up to 4 columns of 300px wide tiles, 20px gutters: 4*300 + 3*20: */
-    max-width: 1260px;
+    max-width: 1040px;
     margin: 0 auto;
     margin-top: 2rem;
     display: grid;
@@ -18,6 +18,8 @@
         overflow: hidden;
         position: relative;
         margin: 0 auto;
+        padding-left: 1em;
+        padding-right: 1em;
   }
 
   @media screen and (min-width: 600px) {
