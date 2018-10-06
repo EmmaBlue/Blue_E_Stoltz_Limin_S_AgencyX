@@ -25,6 +25,16 @@
         workP[6].innerHTML = data.workPara7;
         workP[7].innerHTML = data.workPara8;
 
+        bioImage = document.querySelectorAll('.bioPic');
+        bioImage[0].src = data.employee1;
+        bioImage[1].src = data.employee2;
+
+        bioPara = document.querySelectorAll('.aboutText');
+
+        bioPara[0].innerHTML = data.employee1Para;
+        bioPara[1].innerHTML = data.employee2Para;
+
+
     }
 
 

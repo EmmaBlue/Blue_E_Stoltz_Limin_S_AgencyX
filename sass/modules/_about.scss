@@ -12,15 +12,33 @@
 
 
   .bioBlock {
-        max-width: 500px;
-        border: 1px black solid;
-        background-color:white;
+        max-width: 300px;
+        background-color: $header-color;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding: 1em 2em;
+
+        h2 {
+
+          text-align: center;
+          font-family: $fontHeading;
+          margin-bottom: 20px;
+        }
+
+        img {
+
+          margin: 0 auto;
+          width: 100%;
+        }
+
+        p {
+          margin-top:20px;
+
+        }
   }
+
+
 
   @media screen and (min-width: 600px) {
 

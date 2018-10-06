@@ -33,8 +33,8 @@ jQuery(document).ready(function($) {
                       '<div id="paraList">' +
                       '</div>' +
             '<div class="navGal">' +
-            '<a href="#prev" class="prev slide-nav fa fa-2x fa-angle-left"></a>' +
-            '<a href="#next" class="next slide-nav fa fa-2x fa-angle-right"></a>' +
+            /*'<a href="#prev" class="prev slide-nav fa fa-2x fa-angle-left"></a>' +
+            '<a href="#next" class="next slide-nav fa fa-2x fa-angle-right"></a>' +*/
             '</div>' +
             '</div>' +
             '</section>';
